@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { supabase } from '../../lib/supabase'
+import { supabase } from '../lib/supabase'
 import TweetCard from '../components/TweetCard'
 import TweetLamo from '../components/TweetLamo'
 import AuthModal from '../components/AuthModal'
@@ -75,7 +75,7 @@ function Home() {
     }
   }
 
-  // Function to add a new tweet (you’ll need to call this from your TweetLamo or form)
+  // Function to add a new tweet (you'll need to call this from your TweetLamo or form)
   const addTweet = async (content) => {
     if (!user) {
       alert('Please log in to tweet!')
