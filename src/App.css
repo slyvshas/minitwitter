@@ -1,0 +1,57 @@
+.app {
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  background: #e8f5fd;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #1da1f2;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0d8ddb;
+}
+
+.tweets {
+  margin-top: 2rem;
+}
+
+.tweet {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.tweet p {
+  margin: 0.5rem 0;
+}
+
+.tweet button {
+  background: transparent;
+  color: #e0245e;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}

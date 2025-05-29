@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.header {
+  background: #1c1c1c;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.tweet-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.tweet-form textarea {
+  resize: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.tweet-form button {
+  padding: 0.5rem 1rem;
+  background: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tweet-card {
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
